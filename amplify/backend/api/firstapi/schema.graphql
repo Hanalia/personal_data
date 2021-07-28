@@ -1,0 +1,11 @@
+type mystate @model {
+  id: ID!
+  rating: Int!
+  comment: String
+  sleepTime: AWSDateTime
+  wakeTime: AWSDateTime
+  foodType: String
+  foodRating: Int
+  trainType: String
+  trainTime: Int 
+}
